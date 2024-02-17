@@ -4,7 +4,45 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
-  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-image: url("starry night.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0);
+  background-attachment: relative;
+  position: relative;
+  overflow: auto; /* Add overflow property to allow scrolling */
+}
+
+.gallery-container {
+  display: flex;
+  justify-content: center;
+
+}
+
+.artwork {
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+#artwork1 {
+  width: 100%;
+margin-left:80%;
+}
+
+#artwork2 {
+  width: 40%;
+  margin-left: 10%; /* Adjust the margin for space between artwork 1 and artwork 2 */
+}
+
+#artwork3 {
+  width: 90%;
+  margin-left: 80%; /* Adjust the margin for space between artwork 2 and artwork 3 */
+}
+  </style>
   <title>Art Gallery</title>
 </head>
 <body>
