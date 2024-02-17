@@ -64,7 +64,8 @@ margin-left:80%;
     </a>
   </div>
 
-  <script src="script.js">document.addEventListener('DOMContentLoaded', function () {
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
   const artworks = document.querySelectorAll('.artwork');
 
   artworks.forEach((artwork, index) => {
@@ -72,6 +73,7 @@ margin-left:80%;
       alert(`You clicked on Artwork ${index + 1}`);
     });
   });
-});</script>
+});
+  </script>
 </body>
 </html>
